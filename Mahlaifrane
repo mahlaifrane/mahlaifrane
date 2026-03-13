@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+
+<meta charset="UTF-8">
+<title>Mahla Ifrane Real Estate</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f4f4f4;
+}
+
+/* القائمة العلوية */
+
+header{
+background:#0b5d3b;
+color:white;
+padding:15px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-size:18px;
+}
+
+nav a:hover{
+color:gold;
+}
+
+/* الصورة الرئيسية */
+
+.hero{
+background:url("https://picsum.photos/1200/500") center;
+background-size:cover;
+height:400px;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+font-size:40px;
+font-weight:bold;
+}
+
+/* الأزرار */
+
+.buttons{
+text-align:center;
+margin:40px;
+}
+
+.buttons a{
+background:#0b5d3b;
+color:white;
+padding:15px 25px;
+margin:10px;
+text-decoration:none;
+border-radius:8px;
+font-size:18px;
+}
+
+.buttons a:hover{
+background:gold;
+color:black;
+}
+
+/* معرض الصور */
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:15px;
+padding:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:10px;
+}
+
+/* الفوتر */
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.social a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🦁 MAHLA IFRANE
+</div>
+
+<nav>
+
+<a href="index.html">الرئيسية</a>
+
+<a href="rent1.html">الكراء اليومي</a>
+
+<a href="sale.html">البيع</a>
+
+<a href="about.html">معلومات</a>
+
+<a href="contact.html">تواصل</a>
+
+</nav>
+
+</header>
+
+<div class="hero">
+عقارات فاخرة في Ifrane
+</div>
+
+<div class="buttons">
+
+<a href="rent1.html">شقق للكراء</a>
+
+<a href="#">شقق للبيع</a>
+
+<a href="#">أراضي</a>
+
+<a href="https://wa.me/212674425032">📱 واتساب</a>
+
+</div>
+
+<h2 style="text-align:center">شقق للكراء اليومي</h2>
+
+<div class="gallery">
+
+<img src="https://picsum.photos/400/300?1">
+<img src="https://picsum.photos/400/300?2">
+<img src="https://picsum.photos/400/300?3">
+<img src="https://picsum.photos/400/300?4">
+<img src="https://picsum.photos/400/300?5">
+<img src="https://picsum.photos/400/300?6">
+
+</div>
+
+<h2 style="text-align:center">رسالة ترحيب</h2>
+
+<div style="text-align:center">
+
+<audio controls>
+<source src="audio/welcome.mp3" type="audio/mpeg">
+</audio>
+
+</div>
+
+<h2 style="text-align:center">موقعنا</h2>
+
+<iframe
+src="https://www.google.com/maps?q=Ifrane&output=embed"
+width="100%"
+height="400"
+style="border:0;">
+</iframe>
+
+<footer>
+
+<p>© Mahla Ifrane Real Estate</p>
+
+<p>اتصل بنا</p>
+
+<p>
++212674425032<br>
++212660183251<br>
++212660183258
+</p>
+
+<div class="social">
+
+<a href="#">Facebook</a>
+
+<a href="#">Instagram</a>
+
+<a href="#">YouTube</a>
+
+<a href="#">TikTok</a>
+
+<a href="https://wa.me/212674425032">WhatsApp</a>
+
+</div>
+
+</footer>
+
+</body>
+</html>
